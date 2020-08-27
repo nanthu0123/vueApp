@@ -1,17 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
     <title>my App</title>
-</head>
-<body>
+  </head>
+  <body>
     <div id="app">
-        {{message}}
+      <h1>hello everyone</h1>
+      <h2>my name is {{name}}</h2>
+      <h2>my fav color is <span :class="color"> {{color}}</span></h2>
+      <h2>i am a {{job:'programmer'}}</h2>
     </div>
-
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>
